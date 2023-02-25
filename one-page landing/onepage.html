@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta chartset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galon One-page landing page</title>
+<link rel="stylesheet" href="design.css">
+<script src="JS.js"> </script>
+</head>
+<body>
+	<div class="nav">
+		 <img class="logo" src="logo.png" alt="INVENTORY LOGO">
+		 <p class="name">Mobile Legends pilot page</p>
+		 <a href="#about">About</a>
+         <a href="#contact">Review prices</a>
+         <a class="open-button" onclick="openForm()">Book pilot</a>
+         <a class="buttons" href="#home">Home</a>
+	</div>
+
+<div class="a">
+<div class="b">
+<h2>LET'S<br><span>RANK UP!</span></h2>
+<p>Guaranteed plus star or plus points with Mobile Legends Pilot Page.
+Trusted MLBB pilot with high rank. Avail now and play with higher rank friends! 
+Reasonable price can avail by students, you can choose your desired rank freely.</p>
+</div>
+</div>
+
+  <img class="c" src="fb.png">
+  <img class="d" src="game.png">
+
+<div class="pic1">
+        <div class="wrapper">
+            <img src="js.jpg">
+            <img src="skin 2.jpg">
+            <img src="skin 5.jpg">
+            <img src="skin 6.jpg">
+        </div>
+    </div>
+
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Book pilot</h1>
+
+    <label for="email"><b>Moonton email</b></label>
+    <input type="text" placeholder="Enter your username" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="rank"><b>Your rank to desired rank</b></label>
+    <input type="text" placeholder="Enter your current rank and desired rank" name="desiredrank" required>
+
+    <button type="submit" class="btn">Book</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+
+</body>
+</html>
